@@ -1,2 +1,2 @@
 # Proyectos_LaunchX
-Proyectos realizados durante el LaunchX
+Prácticas y proyectos realizados durante el LaunchX
