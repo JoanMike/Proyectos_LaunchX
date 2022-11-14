@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <h1>Somos tu mayor antojo, desde 2004</h1>
+        <h1>Somos tu mayor antojo, desde el año 2004</h1>
     </header>
 
     <section>
@@ -55,7 +55,7 @@
             <h2>Tortas Personalizadas</h2>
             <p>Todas incluyen vela con diseño, de regalo</p>
             <h3>Haz tu pedido aquí</h3>
-        
+            
             <form action="">
                 <p>¿De cuántas porciones quieres?</p>
                 <select>
@@ -65,25 +65,55 @@
                 </select>
         
                 <p>Opciones de Cake</p>
+                <select>
+                    <option value="Chocolate">Chocolate</option>
+                    <option value="Marmol">Marmol</option>
+                    <option value="Platano">Platano</option>
+                    <option value="Red Velvet">Red Velvet</option>
+                    <option value="Vainilla">Vainilla</option>
+                    <option value="Zanahoria">Zanahoria</option>
+                </select>
+                
+                <p>Rellenos</p>
+                <input type="checkbox" id="Buttercream" name="Buttercream" value="Buttercream">
+                <label for="Buttercream">Buttercream</label>
+                <br>
+                <input type="checkbox" id="Cream Cheese" name="Cream Cheese" value="Cream Cheese">
+                <label for="Cream Cheese">Cream Cheese</label>
+                <br>
+                <input type="checkbox" id="Fudge" name="Fudge" value="Fudge">
+                <label for="Fudge">Fudge</label>
+                <br>
+                <input type="checkbox" id="Ganache" name="Ganache" value="Ganache">
+                <label for="Ganache">Ganache</label>
+                <br>
+                <input type="checkbox" id="Manjar Blanco" name="Manjar Blanco" value="Manjar Blanco">
+                <label for="Manjar Blanco">Manjar Blanco</label>
+                <br>
+                <input type="checkbox" id="Mermelada" name="Mermelada" value="Mermelada">
+                <label for="Mermelada">Mermelada</label>
+
+                <p>Adornos</p>
+                <input type="checkbox" id="Fresa" name="Fresa" value="Fresa">
+                <label for="Fresa">Fresa</label>
+                <br>
+                <input type="checkbox" id="Mango" name="Mango" value="Mango">
+                <label for="Mango">Mango</label>
+                <br>
                 <input type="checkbox" id="Chocolate" name="Chocolate" value="Chocolate">
                 <label for="Chocolate">Chocolate</label>
                 <br>
-                <input type="checkbox" id="Marmol" name="Marmol" value="Marmol">
-                <label for="Marmol">Marmol</label>
+                <input type="checkbox" id="Nuez" name="Nuez" value="Nuez">
+                <label for="Nuez">Nuez</label>
                 <br>
-                <input type="checkbox" id="Platano" name="Platano" value="Platano">
-                <label for="Platano">Platano</label>
+                <input type="checkbox" id="Chispas de colores" name="Chispas de colores" value="Chispas de colores">
+                <label for="Chispas de colores">Chispas de colores</label>
                 <br>
-                <input type="checkbox" id="Red Velvet" name="Red Velvet" value="Red Velvet">
-                <label for="Red Velvet">Red Velvet</label>
-                <br>
-                <input type="checkbox" id="Vainilla" name="Vainilla" value="Vainilla">
-                <label for="Vainilla">Vainilla</label>
-                <br>
-                <input type="checkbox" id="Zanahoria" name="Zanahoria" value="Zanahoria">
-                <label for="Zanahoria">Zanahoria</label>
+                <input type="checkbox" id="Gomitas" name="Gomitas" value="Gomitas">
+                <label for="Gomitas">Gomitas</label>
                 
                 <br><br>
+
                 <label for="Nombre">Nombre:</label><br>
                 <input type="text" id="Nombre" name="Nombre" placeholder="¿Cómo te llamas?">
         
@@ -95,6 +125,7 @@
                 <label for="Dirección">Dirección:</label><br>
                 <input type="text" id="Dirección" name="Dirección" placeholder="¿A dónde lo mandamos?">
         
+                <br><br>
                 <br><br>
                 <button type="submit">Enviar pedido</button>
                 <br><br>
