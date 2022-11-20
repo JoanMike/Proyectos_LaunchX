@@ -42,6 +42,8 @@
         "Personalizadas",
         "Platano",
         "Postres",
+        "Proyectos",
+        "Prácticas",
         "Relleno",
         "Rellenos",
         "Selva",
@@ -71,6 +73,7 @@
         "pedido",
         "porciones",
         "quieres",
+        "realizados",
         "regalo"
     ]
 }
